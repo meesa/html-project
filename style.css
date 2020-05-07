@@ -39,7 +39,7 @@ form {
     vertical-align: middle;
   }
 
-.bio {
+#bio {
     border:2px;
     border-color: rgba(153, 169, 177, 0.466)
 }
