@@ -1,8 +1,83 @@
 nav {
-    border-bottom: 1px solid gray;
-    color: #000;
-    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid rgba(0, 84, 122, 0.466);
+font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    padding-left: 5;
 }
 
+body {background-color: rgb(120, 164, 182)}
+
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #555753; 
+    padding-bottom:10px;
+    bottom: 0; position:absolute;
+
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif
+    padding-left: 8;
+    font-size:10px
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+
+
+body { 
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #dadada; 
+	background: #fff  
+	margin: 0; 
+	padding: 0;
+	}
+
+h3 { 
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #7D775C;
+    }
+    
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: rgba(0, 84, 122, 0.466);
+    }
+    
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: rgba(32, 90, 117, 0.466);
+    }
+    
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: rgba(0, 56, 82, 0.466);
+    }
+    
+
+
+.h1 { 
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(0, 35, 51, 0.466);
+
+}
